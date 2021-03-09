@@ -33,6 +33,7 @@ nav p a{
 #introductie{
     text-align: center;
     font-size: 18px;
+    color: rgb(255, 255, 255)
 }
 
 #introductie h1{
@@ -156,7 +157,7 @@ nav p a{
 
 nav {
     text-align: left;
-    width: 110.7%;
+    width: 105%;
     height: 60px;
     background-color: rgb(65, 152, 211);
     font-family: Arial, Helvetica, sans-serif;
