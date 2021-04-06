@@ -109,9 +109,3 @@ body h3{
 #contact h1{
     color: rgb(247, 111, 0);
 }
-
-p.double {
-    border-style: double;
-    width: 450px;
-    margin-left: 725px;
-}
