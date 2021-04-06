@@ -7,7 +7,7 @@ background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Com
 background-repeat: no-repeat;
 background-size: cover;
 background-color: #ffffff;
-color: black;
+color: white;
 }
 
 body h1{
@@ -28,19 +28,65 @@ body h3{
    color: rgb(247, 111, 0);
 }
 
-#container {
-    width: 100%;
-    height: 85%;
-    
+.row2 {
+    display: flex;
+}
+.row {
+  display: flex;
 }
 
-#boven {
-    width: 100%;
-    height: 50%;
+#htmlcss p {
+    color: white;
+    text-indent: 30px;
+    font-size: 30px;
 }
 
-#boven h1{
-    color: rgb(247, 111, 0);
+#cybersecurity p { 
+    color: white;
+    text-indent: 230px;
+    font-size: 30px;
+}
+
+#sql p {
+    color: white;
+    text-indent: 230px;
+    font-size: 30px;
+}
+
+#netlogo p{
+    color: white;
+    text-indent: 345px;
+    font-size: 30px;
+}
+
+#plaatje{
+    width: 10%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+#plaatje2{
+    width: 10%;
+    height: 100%;
+    margin-left: 214px;
+}
+
+#plaatje3{
+    width: 10%;
+    height: 100%;
+    margin-left: 214px;
+}
+
+#plaatje4{
+    width: 10%;
+    height: 100%;
+    margin-left: 214px;
+}
+
+#plaatje5 {
+     width: 10%;
+    height: 100%;
+    margin-left: 550px;
 }
 
 #onder {
@@ -50,7 +96,7 @@ body h3{
     display: flex;
 }
 
-#gegevens{
+#contact{
     width: 30%;
     height: 100%;
     margin: 50px;
@@ -60,107 +106,12 @@ body h3{
     font-size: 18px;
 }
 
-#gegevens h1{
+#contact h1{
     color: rgb(247, 111, 0);
 }
 
-#plaatje{
-    width: 10%;
-    height: 100%;
-    margin-left: 300px;
+p.double {
+    border-style: double;
+    width: 450px;
+    margin-left: 725px;
 }
-
-#openingstijden{
-    width: 380px;
-    padding: 12px;
-    border-right: 8px dotted rgb(247, 111, 0);
-    border-left: 8px dotted rgb(247, 111, 0);
-    text-align: center;
-    font-size: 18px;
-    color:rgb(255, 255, 255);
-}
-
-#openingstijden h2{
-    color:rgb(255, 255, 255);
-}
-
-#reserveren{
-    text-align: center;
-    font-size: 18px;
-    width: 1075px;
-    padding: 12px;
-    border-right: 8px dotted rgb(247, 111, 0);
-    border-left: 8px dotted rgb(247, 111, 0);
-}
-
-#reserveren h1{
-    color: rgb(247, 111, 0);
-}
-
-#info{
-    text-align: center;
-    font-size: 18px;
-    width: 1075px;
-    padding: 12px;
-    border-right: 8px dotted rgb(247, 111, 0);
-    border-left: 8px dotted rgb(247, 111, 0);
-}
-
-#info h1{
-    color: rgb(247, 111, 0);
-}
-
-#sites{
-    font-size: 18px;
-    width: 1075px;
-    padding: 12px;
-    border-right: 8px dotted rgb(247, 111, 0);
-    border-left: 8px dotted rgb(247, 111, 0);
-    text-align: center;
-}
-
-#sites h1{
-    color: rgb(247, 111, 0);
-}
-
-#sites li{
-    text-align: left;
-}
-
-#menu{
-    text-align: center;
-    margin-left: 32px;
-    font-size: 18px;
-    width: 1000px;
-    padding: 12px;
-    border-right: 8px dotted rgb(247, 111, 0);
-    border-left: 8px dotted rgb(247, 111, 0);
-}
-
-#menu h1{
-    color: rgb(247, 111, 0);
-}
-
-#sites a:link{
-    color: rgb(247, 111, 0);
-}
-
-ul a:hover {
-    background-color: none;
-    padding: 12px 25px;
-}
-
-#sites a:visited{
-    color: rgb(247, 111, 0)
-}
-
-#sites a:hover{
-    color: rgb(40, 136, 173);
-}
-
-#sites a:active{
-    color: rgb(145, 11, 11);
-}
-
-
-
